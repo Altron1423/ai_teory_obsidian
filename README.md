@@ -1,0 +1,1 @@
+# ai_teory_obsidian
