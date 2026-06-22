@@ -1,16 +1,16 @@
 {
 	"nodes":[
-		{"id":"2ba8592b68b4a9c8","type":"file","file":"Практическая реализация/Формовщик.md","x":-260,"y":-400,"width":400,"height":400},
-		{"id":"3e7060cbb5fd195b","type":"text","text":"Отправка в модель","x":-185,"y":180,"width":250,"height":60},
-		{"id":"622e8deca0da849c","type":"text","text":"Сформированный контекст для модели","x":-185,"y":60,"width":250,"height":60},
 		{"id":"b557d7fc27daaf75","type":"file","file":"Практическая реализация/Собственная структура формирования контекста для агента.md","x":-1460,"y":-1100,"width":400,"height":400},
 		{"id":"d38fb74fb69edfb6","type":"file","file":"Практическая реализация/RAG-система.md","x":840,"y":-60,"width":400,"height":400},
-		{"id":"51592bbec0ae09d0","type":"file","file":"Практическая реализация/Посыльный.md","x":-260,"y":720,"width":400,"height":400},
-		{"id":"c7c608d76cca4f5f","type":"text","text":"Отправка ответа пользователю","x":-185,"y":1240,"width":250,"height":60},
 		{"id":"db461c488d421ac4","type":"text","text":"Проверка типа ответа, и его перенаправление в зависимости от типа.\n---\n---\n\n    Вызов инструмената\n\n---\n\n                         Текст в свободной форме.","x":-359,"y":300,"width":598,"height":320},
 		{"id":"f4d377e5534c110e","type":"file","file":"Практическая реализация/Продюсер.md","x":-800,"y":60,"width":320,"height":330},
 		{"id":"f7b1c67fe421a668","type":"file","file":"Практическая реализация/Историк.md","x":-1360,"y":-280,"width":400,"height":400},
-		{"id":"2b3194848c1fcb41","type":"text","text":"Входной запрос пользователя","x":239,"y":-760,"width":250,"height":60}
+		{"id":"622e8deca0da849c","type":"text","text":"Сформированный контекст для модели","x":-359,"y":60,"width":250,"height":60},
+		{"id":"3e7060cbb5fd195b","type":"text","text":"Отправка в модель","x":-359,"y":165,"width":250,"height":60},
+		{"id":"51592bbec0ae09d0","type":"file","file":"Практическая реализация/Посыльный.md","x":-60,"y":760,"width":400,"height":400},
+		{"id":"c7c608d76cca4f5f","type":"text","text":"Отправка ответа пользователю","x":15,"y":1320,"width":250,"height":60},
+		{"id":"2ba8592b68b4a9c8","type":"file","file":"Практическая реализация/Формовщик.md","x":-36,"y":-480,"width":400,"height":400},
+		{"id":"2b3194848c1fcb41","type":"text","text":"Входной запрос пользователя","x":364,"y":-840,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"310b794a165a0db9","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"2ba8592b68b4a9c8","toSide":"top"},
@@ -28,6 +28,7 @@
 		{"id":"9794ab76163e27a9","fromNode":"f4d377e5534c110e","fromSide":"top","toNode":"2ba8592b68b4a9c8","toSide":"left"},
 		{"id":"472cd598cde81080","fromNode":"f4d377e5534c110e","fromSide":"left","toNode":"f7b1c67fe421a668","toSide":"bottom"},
 		{"id":"292c2068675d62e9","fromNode":"51592bbec0ae09d0","fromSide":"left","toNode":"f4d377e5534c110e","toSide":"bottom"},
-		{"id":"0dd9b9c4df258190","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"}
+		{"id":"0dd9b9c4df258190","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"},
+		{"id":"e02461c22de655c1","fromNode":"2ba8592b68b4a9c8","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"}
 	]
 }
