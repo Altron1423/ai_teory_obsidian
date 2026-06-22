@@ -1,12 +1,13 @@
 {
 	"nodes":[
+		{"id":"d38fb74fb69edfb6","x":381,"y":-142,"width":400,"height":400,"type":"file","file":"Практическая реализация/RAG-система.md"},
 		{"id":"2ba8592b68b4a9c8","type":"file","file":"Практическая реализация/Формовщик.md","x":-260,"y":-400,"width":400,"height":400},
 		{"id":"3e7060cbb5fd195b","type":"text","text":"Отправка в модель","x":-185,"y":180,"width":250,"height":60},
 		{"id":"622e8deca0da849c","type":"text","text":"Сформированный контекст для модели","x":-185,"y":60,"width":250,"height":60},
 		{"id":"51592bbec0ae09d0","type":"file","file":"Посыльный.md","x":-260,"y":300,"width":400,"height":400},
 		{"id":"b557d7fc27daaf75","type":"file","file":"Практическая реализация/Собственная структура формирования контекста для агента.md","x":-1460,"y":-1100,"width":400,"height":400},
-		{"id":"f7b1c67fe421a668","x":-900,"y":-340,"width":400,"height":400,"type":"file","file":"Практическая реализация/Историк.md"},
-		{"id":"2b3194848c1fcb41","type":"text","text":"Входной запрос пользователя","x":-185,"y":-780,"width":250,"height":60}
+		{"id":"2b3194848c1fcb41","type":"text","text":"Входной запрос пользователя","x":-185,"y":-780,"width":250,"height":60},
+		{"id":"f7b1c67fe421a668","type":"file","file":"Практическая реализация/Историк.md","x":-960,"y":-340,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"310b794a165a0db9","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"2ba8592b68b4a9c8","toSide":"top"},
@@ -14,6 +15,7 @@
 		{"id":"2da2c07da0c18a87","fromNode":"622e8deca0da849c","fromSide":"bottom","toNode":"3e7060cbb5fd195b","toSide":"top"},
 		{"id":"8238832038f143a7","fromNode":"3e7060cbb5fd195b","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"top"},
 		{"id":"f6df3dc034b8bf3d","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"f7b1c67fe421a668","toSide":"top"},
-		{"id":"4145f954dcd6774a","fromNode":"f7b1c67fe421a668","fromSide":"right","toNode":"2ba8592b68b4a9c8","toSide":"left"}
+		{"id":"4145f954dcd6774a","fromNode":"f7b1c67fe421a668","fromSide":"right","toNode":"2ba8592b68b4a9c8","toSide":"left"},
+		{"id":"c8b4e95fb6c63728","fromNode":"51592bbec0ae09d0","fromSide":"left","toNode":"f7b1c67fe421a668","toSide":"bottom"}
 	]
 }
