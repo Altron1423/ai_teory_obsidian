@@ -10,14 +10,15 @@
 		{"id":"2b3194848c1fcb41","type":"text","text":"Входной запрос пользователя","x":364,"y":-840,"width":250,"height":60,"color":"2"},
 		{"id":"3e7060cbb5fd195b","type":"text","text":"Отправка в модель","x":-185,"y":165,"width":250,"height":60,"color":"6"},
 		{"id":"622e8deca0da849c","type":"text","text":"Сформированный контекст для модели","x":-185,"y":60,"width":250,"height":60,"color":"5"},
-		{"id":"d38fb74fb69edfb6","type":"file","file":"Практическая реализация/RAG-система.md","x":680,"y":60,"width":400,"height":400,"color":"4"}
+		{"id":"6d4b78647ab9625c","x":1020,"y":-420,"width":400,"height":400,"type":"file","file":"Практическая реализация/Граф связности.md"},
+		{"id":"d38fb74fb69edfb6","type":"file","file":"Практическая реализация/RAG-система.md","x":614,"y":25,"width":400,"height":400,"color":"4"}
 	],
 	"edges":[
-		{"id":"310b794a165a0db9","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"2ba8592b68b4a9c8","toSide":"top"},
+		{"id":"310b794a165a0db9","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"2ba8592b68b4a9c8","toSide":"top","label":"Сообщение пользователя"},
 		{"id":"4640203f75fa9bdf","fromNode":"2ba8592b68b4a9c8","fromSide":"bottom","toNode":"622e8deca0da849c","toSide":"top"},
 		{"id":"2da2c07da0c18a87","fromNode":"622e8deca0da849c","fromSide":"bottom","toNode":"3e7060cbb5fd195b","toSide":"top"},
 		{"id":"8238832038f143a7","fromNode":"db461c488d421ac4","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"top"},
-		{"id":"f6df3dc034b8bf3d","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"f7b1c67fe421a668","toSide":"top"},
+		{"id":"f6df3dc034b8bf3d","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"f7b1c67fe421a668","toSide":"top","label":"Сообщение пользователя"},
 		{"id":"4145f954dcd6774a","fromNode":"f7b1c67fe421a668","fromSide":"right","toNode":"2ba8592b68b4a9c8","toSide":"left"},
 		{"id":"c8b4e95fb6c63728","fromNode":"51592bbec0ae09d0","fromSide":"left","toNode":"f7b1c67fe421a668","toSide":"bottom"},
 		{"id":"1069e07e3deb2288","fromNode":"d38fb74fb69edfb6","fromSide":"top","toNode":"2ba8592b68b4a9c8","toSide":"right"},
@@ -28,7 +29,10 @@
 		{"id":"9794ab76163e27a9","fromNode":"f4d377e5534c110e","fromSide":"top","toNode":"2ba8592b68b4a9c8","toSide":"left"},
 		{"id":"472cd598cde81080","fromNode":"f4d377e5534c110e","fromSide":"left","toNode":"f7b1c67fe421a668","toSide":"bottom"},
 		{"id":"292c2068675d62e9","fromNode":"51592bbec0ae09d0","fromSide":"left","toNode":"f4d377e5534c110e","toSide":"bottom"},
-		{"id":"0dd9b9c4df258190","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"},
-		{"id":"e02461c22de655c1","fromNode":"2ba8592b68b4a9c8","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"}
+		{"id":"0dd9b9c4df258190","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right","label":"Сообщение пользователя"},
+		{"id":"e02461c22de655c1","fromNode":"2ba8592b68b4a9c8","fromSide":"bottom","toNode":"51592bbec0ae09d0","toSide":"right"},
+		{"id":"904091663174e9e3","fromNode":"2b3194848c1fcb41","fromSide":"bottom","toNode":"6d4b78647ab9625c","toSide":"top","label":"Сообщение пользователя"},
+		{"id":"34749c4703cc2537","fromNode":"6d4b78647ab9625c","fromSide":"left","toNode":"2ba8592b68b4a9c8","toSide":"right","label":"Найденные смежные\nпонятия/воспоминания"},
+		{"id":"c386170c6123b5d6","fromNode":"51592bbec0ae09d0","fromSide":"right","toNode":"6d4b78647ab9625c","toSide":"bottom"}
 	]
 }
